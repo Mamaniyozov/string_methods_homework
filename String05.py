@@ -6,5 +6,6 @@ def main(s):
     Returns:
         str: answer
     """
-    
-    return
+    s=s.capitalize()
+    return s
+print(main("ok google"))
