@@ -1,3 +1,5 @@
+
+
 def main(s):
     """
     A str of several words is given. All letters are lowercase. Make sure that the first letter of each word is capitalized.
@@ -6,5 +8,6 @@ def main(s):
     Returns:
         str: answer
     """
-    
-    return
+    s=s.title()
+    return s
+print(main("hello world"))
