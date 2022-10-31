@@ -6,6 +6,6 @@ def main(s):
     Returns:
         int: answer
     """
-    s=s.index('a')
+    s=s.find('a')
     return s
 print(main('assalomu alaykum'))
