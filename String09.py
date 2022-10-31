@@ -6,5 +6,6 @@ def main(s):
     Returns:
         int: answer
     """
-    
-    return
+    s=s.index('a')
+    return s
+print(main('assalomu alaykum'))
