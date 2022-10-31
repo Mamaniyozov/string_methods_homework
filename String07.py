@@ -6,5 +6,6 @@ def main(s):
     Returns:
         bool: answer
     """
-    
-    return
+    s=s.isalpha()
+    return s
+print(main('2346'))
