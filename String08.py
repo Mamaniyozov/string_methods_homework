@@ -6,5 +6,6 @@ def main(s):
     Returns:
         bool: answer
     """
-    
-    return
+    s=s.isupper()
+    return s
+print(main('ASKDKD'))
